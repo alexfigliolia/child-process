@@ -16,7 +16,7 @@ yarn add @figliolia/child-process
 import { ChildProcess } from "@figliolia/child-process";
 
 const CP = new ChildProcess(
-	"some shell command"
+  "some shell command"
 );
 
 // Await the completion of your command
@@ -24,6 +24,10 @@ await CP.handler;
 
 // Use the raw child process in your code
 CP.process.on("something", () => {});
+
+// If you do not need access to the underlying child process, 
+// but instead wish to have just a promise with stdio access
+const { stdout, stderr } = await ChildProcess.execute("your command");
 ```
 
 ### Advanced Usage
