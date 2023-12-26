@@ -21,15 +21,6 @@
     "noFallthroughCasesInSwitch": true,
     "isolatedModules": true,
     "noEmit": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@figliolia/stealth-core": [
-        "core/index.ts"
-      ],
-      "@figliolia/stealth-driver": [
-        "driver/index.ts"
-      ]
-    }
   },
   "include": [
     "src",
