@@ -1,0 +1,10 @@
+{
+	"extends": "./tsconfig.build.json",
+	"compilerOptions": {
+		"noEmit": false,
+		"declaration": true,
+		"module": "commonjs",
+		"outDir": "../dist/cjs",
+		"target": "ES2015"
+	},
+}
