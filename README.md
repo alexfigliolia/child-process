@@ -29,7 +29,7 @@ CP.process.on("something", () => {});
 ### Advanced Usage
 It's fairly common to require the management of multiple sub-process when building complex applications such as development environments, CI's, and more.
 
-This library provides a means for handling multiple child process's as well as binding to kill exit signals that may cause an underlying application to fail.
+This library provides a means for handling multiple child processes as well as binding to kill exit signals that may cause an underlying application to fail.
 
 ```typescript
 import { ChildProcess } from "@figliolia/child-process";
