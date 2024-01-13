@@ -31,7 +31,6 @@
     ".*.js"
   ],
   "exclude": [
-    "__Stealth__",
     "coverage",
     "dist",
     "node_modules"
