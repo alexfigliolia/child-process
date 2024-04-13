@@ -1,6 +1,6 @@
 {
   "name": "@figliolia/child-process",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A wrapper around the node.js spawn function providing a promise and graceful exiting",
   "keywords": [
     "node",
@@ -17,7 +17,6 @@
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
   "types": "dist/types/index.d.ts",
-  "bin": "./dist/cjs/stealth/CLI.js",
   "files": [
     "dist",
     "src/*"
